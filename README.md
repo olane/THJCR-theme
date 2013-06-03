@@ -13,3 +13,8 @@ Note that the endpoints won't work without inputting the correct username/passwo
 The pictures for the room database should be under `/roomdb/pics/` or they won't display (these base URLs can be changed in the javascript files).
 
 Note that this repository has no authentication inbuilt - this can be implemented by protecting the endpoints and display page, and will depend on the authentication required.
+
+# Author #
+
+Oli Lane
+Trinity Hall JCR Webmaster 2013
