@@ -1,0 +1,155 @@
+/* NOTE: this file is a reference, it isn't used directly. Actual styling rules are in the main style.css under "icons" */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-facebook, .icon-twitter, .icon-feed, .icon-feed-2, .icon-spinner, .icon-spinner-2, .icon-food, .icon-menu, .icon-list, .icon-list-2, .icon-database, .icon-home, .icon-office, .icon-globe, .icon-signup, .icon-wrench, .icon-hammer, .icon-address-book, .icon-bookmark, .icon-notebook, .icon-book, .icon-newspaper, .icon-user, .icon-screen, .icon-facebook-2, .icon-calendar, .icon-stack, .icon-file, .icon-profile, .icon-paint-format, .icon-camera, .icon-settings, .icon-search, .icon-wordpress, .icon-wordpress-2, .icon-envelope, .icon-twitter-2, .icon-location {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-facebook:before {
+	content: "\e000";
+}
+.icon-twitter:before {
+	content: "\e001";
+}
+.icon-feed:before {
+	content: "\e002";
+}
+.icon-feed-2:before {
+	content: "\e003";
+}
+.icon-spinner:before {
+	content: "\e004";
+}
+.icon-spinner-2:before {
+	content: "\e005";
+}
+.icon-food:before {
+	content: "\e006";
+}
+.icon-menu:before {
+	content: "\e007";
+}
+.icon-list:before {
+	content: "\e008";
+}
+.icon-list-2:before {
+	content: "\e009";
+}
+.icon-database:before {
+	content: "\e00a";
+}
+.icon-home:before {
+	content: "\e00b";
+}
+.icon-office:before {
+	content: "\e00c";
+}
+.icon-globe:before {
+	content: "\e00d";
+}
+.icon-signup:before {
+	content: "\e00e";
+}
+.icon-wrench:before {
+	content: "\e00f";
+}
+.icon-hammer:before {
+	content: "\e010";
+}
+.icon-address-book:before {
+	content: "\e011";
+}
+.icon-bookmark:before {
+	content: "\e012";
+}
+.icon-notebook:before {
+	content: "\e013";
+}
+.icon-book:before {
+	content: "\e014";
+}
+.icon-newspaper:before {
+	content: "\e015";
+}
+.icon-user:before {
+	content: "\e016";
+}
+.icon-screen:before {
+	content: "\e017";
+}
+.icon-facebook-2:before {
+	content: "\e018";
+}
+.icon-calendar:before {
+	content: "\e019";
+}
+.icon-stack:before {
+	content: "\e01a";
+}
+.icon-file:before {
+	content: "\e01b";
+}
+.icon-profile:before {
+	content: "\e01c";
+}
+.icon-paint-format:before {
+	content: "\e01d";
+}
+.icon-camera:before {
+	content: "\e01e";
+}
+.icon-settings:before {
+	content: "\e01f";
+}
+.icon-search:before {
+	content: "\e020";
+}
+.icon-wordpress:before {
+	content: "\e021";
+}
+.icon-wordpress-2:before {
+	content: "\e022";
+}
+.icon-envelope:before {
+	content: "\e023";
+}
+.icon-twitter-2:before {
+	content: "\e024";
+}
+.icon-location:before {
+	content: "\e025";
+}
