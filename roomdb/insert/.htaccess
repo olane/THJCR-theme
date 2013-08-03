@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protected area, please enter login."
+AuthUserFile /societies/thjcr/public_html/roomdb/insert/.htpasswd
+Require valid-user
