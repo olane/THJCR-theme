@@ -560,7 +560,7 @@ header {
 
 
 #logo {
-	margin: 25px 30px 15px;
+	margin: 25px 48px 15px;
 }
 
 
@@ -757,6 +757,42 @@ footer a:hover {
 #copyright .alignright p{
 	text-align: right;
 }
+
+
+/* ---------- COMMITTEE PAGE ----------- */
+
+.committee-position{
+	margin: 2em 0 0;
+	padding: 0 20px 5px;
+	border: 1px dashed #ddd;
+	background-color: #f5f5f5;
+}
+
+
+.committee-position .member-names {
+	font-weight: normal;
+}
+
+.committee-position .pictures {
+	float: left;
+	width: 120px;
+	margin-right: 20px;
+}
+
+.member-image {
+	width: 120px;
+	margin-bottom: 1em;
+}
+
+.committee-position .bio {
+	float: left;
+	width: 370px;
+}
+
+.committee-position .bio p:first-of-type {
+	margin-top: 0;
+}
+
 
 
 

@@ -18,9 +18,7 @@
                 <p class="postmetadata">
                 <?php edit_post_link('Edit','',''); ?>  
                 </p>
-                <!--
-                    <?php trackback_rdf(); ?>
-                -->
+                
             </article>
 
         <?php endwhile; ?>
